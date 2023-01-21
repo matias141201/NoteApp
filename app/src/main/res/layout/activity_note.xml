@@ -7,7 +7,7 @@
 
         <variable
             name="model"
-            type="com.example.agenda.viewmodel.NoteViewModel" />
+            type="com.example.noteapp.viewmodel.NoteViewModel" />
 
     </data>
 

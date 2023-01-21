@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.agenda.config.Constants
+import com.example.noteapp.config.Constants
 import com.example.noteapp.models.Note
 import com.example.noteapp.R
 import com.example.noteapp.databinding.NoteListBinding

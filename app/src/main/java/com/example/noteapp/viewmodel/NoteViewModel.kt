@@ -1,10 +1,10 @@
-package com.example.agenda.viewmodel
+package com.example.noteapp.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.agenda.config.Constants
-import com.example.agenda.config.NoteApp.Companion.db
+import com.example.noteapp.config.Constants
+import com.example.noteapp.config.NoteApp.Companion.db
 import com.example.noteapp.models.Note
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

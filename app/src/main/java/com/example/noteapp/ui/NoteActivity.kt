@@ -2,20 +2,16 @@ package com.example.noteapp.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
-import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.get
-import com.example.agenda.config.Constants
-import com.example.agenda.dialogo.DeleteDialog
-import com.example.agenda.dialogo.DeleteListener
-import com.example.agenda.viewmodel.MainViewModel
-import com.example.agenda.viewmodel.NoteViewModel
+import com.example.noteapp.config.Constants
+import com.example.noteapp.dialog.DeleteDialog
+import com.example.noteapp.dialog.DeleteListener
+import com.example.noteapp.viewmodel.NoteViewModel
 import com.example.noteapp.MainActivity
 import com.example.noteapp.R
 import com.example.noteapp.databinding.ActivityNoteBinding

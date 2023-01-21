@@ -5,14 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.view.inputmethod.InputMethodManager
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.get
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.agenda.config.Constants
-import com.example.agenda.viewmodel.MainViewModel
+import com.example.noteapp.config.Constants
+import com.example.noteapp.viewmodel.MainViewModel
 import com.example.noteapp.adapters.NoteAdapter
 import com.example.noteapp.databinding.ActivityMainBinding
 import com.example.noteapp.ui.NoteActivity

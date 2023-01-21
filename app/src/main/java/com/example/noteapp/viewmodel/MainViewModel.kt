@@ -1,12 +1,11 @@
-package com.example.agenda.viewmodel
+package com.example.noteapp.viewmodel
 
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
+
 import androidx.lifecycle.viewModelScope
-import androidx.recyclerview.widget.GridLayoutManager
-import com.example.agenda.config.NoteApp.Companion.db
+import com.example.noteapp.config.NoteApp.Companion.db
 import com.example.noteapp.models.Note
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

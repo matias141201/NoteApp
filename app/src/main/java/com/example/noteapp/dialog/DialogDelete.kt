@@ -1,4 +1,4 @@
-package com.example.agenda.dialogo
+package com.example.noteapp.dialog
 
 import android.app.Dialog
 import android.content.DialogInterface

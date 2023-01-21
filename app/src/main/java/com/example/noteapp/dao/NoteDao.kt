@@ -1,4 +1,4 @@
-package com.example.agenda.dao
+package com.example.noteapp.dao
 
 import androidx.room.*
 import com.example.noteapp.models.Note

@@ -1,4 +1,4 @@
-package com.example.agenda.config
+package com.example.noteapp.config
 
 object Constants {
 

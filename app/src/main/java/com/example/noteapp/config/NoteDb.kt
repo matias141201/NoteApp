@@ -1,8 +1,8 @@
-package com.example.agenda.config
+package com.example.noteapp.config
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.agenda.dao.NoteDao
+import com.example.noteapp.dao.NoteDao
 import com.example.noteapp.models.Note
 
 
