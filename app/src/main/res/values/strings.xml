@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="delete_note">Delete note?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="body">Note</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="create_new_note" >create new note</string>
+    <string name="error" >the title and the note cannot be empty</string>
+</resources>

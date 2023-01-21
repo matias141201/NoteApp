@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="cancel">cancelar</string>
+    <string name="title">Titulo</string>
+    <string name="body">Nota</string>
+    <string name="delete">Borrar</string>
+    <string name="search">Buscar</string>
+    <string name="save">Guardar</string>
+    <string name="edit">Editar</string>
+    <string name="delete_note">¿desea borrar la nota?</string>
+    <string name="create_new_note">crear una nueva nota</string>
+    <string name="error">el titulo y la nota no pueden ser vacios</string>
+</resources>
