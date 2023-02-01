@@ -46,31 +46,21 @@
             app:layout_constraintTop_toBottomOf="@+id/etTitle" />
 
 
-        <LinearLayout
-            android:id="@+id/LinearEdit"
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnDelete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:gravity="center"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="4dp"
             android:visibility="gone"
-            android:orientation="horizontal"
+            android:contentDescription="@string/delete"
+            android:src="@drawable/ic_white_delete_24"
+            app:backgroundTint="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etBody"
-            app:layout_constraintVertical_bias="0.972">
+            app:layout_constraintVertical_bias="0.992" />
 
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/btnDelete"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/delete"
-                android:src="@drawable/ic_white_delete_24"
-                app:backgroundTint="@color/red" />
-
-
-        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -49,11 +49,11 @@ class NoteActivity : AppCompatActivity(), DeleteListener {
 
             viewModel.id.value = intent.getLongExtra(Constants.ID_KEY, 0)
             viewModel.editNote()
-            binding.LinearEdit.visibility = View.VISIBLE
+            binding.btnDelete.visibility = View.VISIBLE
 
         } else {
 
-            binding.LinearEdit.visibility = View.GONE
+            binding.btnDelete.visibility = View.GONE
 
         }
 

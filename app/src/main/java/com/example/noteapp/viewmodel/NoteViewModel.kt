@@ -23,7 +23,7 @@ class NoteViewModel : ViewModel() {
 
         if (isNotEmpty()) {
 
-            var newNote = Note(
+            val newNote = Note(
                 0,
                 tiltle.value!!,
                 body.value!!,
@@ -89,14 +89,14 @@ class NoteViewModel : ViewModel() {
 
     fun deleteNote() {
 
-        var deleteNote = Note(
+        val deleteNote = Note(
             id.value!!,
             "",
             ""
         )
 
         viewModelScope.launch {
-            var result = withContext(Dispatchers.IO) {
+            val result = withContext(Dispatchers.IO) {
                 db.noteDao().delete(deleteNote)
             }
 
