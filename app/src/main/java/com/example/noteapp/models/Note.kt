@@ -9,5 +9,6 @@ data class Note(
     @PrimaryKey(autoGenerate = true)
     var ID: Long,
     var title: String,
-    var body: String
+    var body: String,
+    var time: String? = null
 )

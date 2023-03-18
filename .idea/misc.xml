@@ -21,10 +21,12 @@
         <entry key="..\:/android offline/note/app/src/main/res/drawable/edit_text_style.xml" value="0.1435" />
         <entry key="..\:/android offline/note/app/src/main/res/drawable/ic_add_24.xml" value="0.1435" />
         <entry key="..\:/android offline/note/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1435" />
+        <entry key="..\:/android offline/note/app/src/main/res/drawable/ic_notifications_24.xml" value="0.1435" />
         <entry key="..\:/android offline/note/app/src/main/res/drawable/rounded_corner.xml" value="0.1435" />
         <entry key="..\:/android offline/note/app/src/main/res/layout/activity_main.xml" value="0.15526849037487336" />
         <entry key="..\:/android offline/note/app/src/main/res/layout/activity_note.xml" value="0.15307971014492755" />
         <entry key="..\:/android offline/note/app/src/main/res/layout/note_list.xml" value="0.15526849037487336" />
+        <entry key="..\:/android offline/note/app/src/main/res/menu/menu_main.xml" value="0.3041025641025641" />
       </map>
     </option>
   </component>

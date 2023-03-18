@@ -9,6 +9,9 @@
     <string name="save">Guardar</string>
     <string name="edit">Editar</string>
     <string name="delete_note">¿desea borrar la nota?</string>
-    <string name="create_new_note">crear una nueva nota</string>
-    <string name="error">el titulo y la nota no pueden ser vacios</string>
+    <string name="create_new_note">Crear una nueva nota</string>
+    <string name="error">El titulo y la nota no pueden ser vacios</string>
+    <string name="next">Siguiente</string>
+    <string name="crate">Crear</string>
+    <string name="Back">Atras</string>
 </resources>

@@ -14,7 +14,6 @@ interface NoteDao {
 
     @Query("SELECT * FROM Note WHERE title LIKE '%' || :title || '%' ")
     suspend fun getByTitle(title: String): List<Note>
-
     @Insert
     suspend fun insert(note: List<Note>): List<Long>
 

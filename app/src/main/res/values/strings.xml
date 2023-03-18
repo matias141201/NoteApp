@@ -8,6 +8,9 @@
     <string name="search">Search</string>
     <string name="save">Save</string>
     <string name="edit">Edit</string>
-    <string name="create_new_note" >create new note</string>
-    <string name="error" >the title and the note cannot be empty</string>
+    <string name="create_new_note" >Create new note</string>
+    <string name="error" >The title and the note cannot be empty</string>
+    <string name="next">Next</string>
+    <string name="crate">Crate</string>
+    <string name="Back">Back</string>
 </resources>
